@@ -6,8 +6,8 @@
 #3. Change the value of `key_to_pause_recording` variable below.
 
 #Usage
-# recording_timer <minutes>
-# recording_timer <minutes> <seconds>
+# ssr_timer.sh <minutes>
+# ssr_timer.sh <minutes> <seconds>
 
 set -e
 
@@ -15,9 +15,9 @@ key_to_pause_recording="super+z" #This is the hotkey set in SimpleScreenRecorder
 
 usage_string="\
 Usage:
-  recording_timer <minute>
-  recording_timer <minute> <second>
-  recording_timer <hour> <minute> <second>
+  $0 <minute>
+  $0 <minute> <second>
+  $0 <hour> <minute> <second>
 
 Options:
   -h,--help:    show this help\
